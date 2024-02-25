@@ -108,7 +108,7 @@ function App() {
 
       {selectCities && (
         <h2>
-          You selected <span>{selectCities}</span> ,<span className="grey">{selectState} ,{selectCountry}</span>
+          You selected <span>{selectCities}</span>,<span className="grey"> {selectState}, {selectCountry}</span>
         </h2>
       )}
     </div>
